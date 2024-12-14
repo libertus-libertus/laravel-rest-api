@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Route::apiResource('students', StudentController::class);
-Route::resource('/student', StudentController::class);
-Route::resource('/teacher', TeacherController::class);
-Route::resource('/mapel', MapelController::class);
+Route::apiResource('/student', StudentController::class);
+Route::apiResource('/teacher', TeacherController::class);
+Route::apiResource('/mapel', MapelController::class);
